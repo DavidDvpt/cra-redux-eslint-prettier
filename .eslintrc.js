@@ -27,18 +27,8 @@ module.exports = {
     },
   ],
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        trailingComma: 'es5',
-        tabWidth: 2,
-        semi: true,
-        singleQuote: true,
-        endOfLine: 'auto',
-      },
-    ],
-    'import/extensions': 'off',
+    // 'import/extensions': 'off',
     'react/jsx-filename-extension': [1, { extensions: ['.jsx'] }],
-    'react/react-in-jsx-scope': 'off',
+    // 'react/react-in-jsx-scope': 'off',
   },
 };
